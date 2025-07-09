@@ -4,7 +4,8 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "app.mjs"
+      "dest": "/app.mjs",
+      "methods": ["POST"]
     }
   ]
 }
